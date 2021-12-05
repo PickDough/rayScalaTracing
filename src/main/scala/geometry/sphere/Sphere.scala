@@ -4,7 +4,7 @@ import hittable.{HitRecord, Hittable}
 import ray.Ray
 import vector.Vec3
 
-case class Sphere(center: Vec3, radius: Double) extends Hittable {
+class Sphere(center: Vec3, radius: Double) extends Hittable {
   override def hit(r: Ray, minT: Double, maxT: Double): Option[HitRecord] =
     val oc = r.origin - center
     val a = r.direction.lengthSquared
@@ -26,9 +26,9 @@ case class Sphere(center: Vec3, radius: Double) extends Hittable {
         if outOfBoundaries(root) then
           None
         else
-          Some(HitRecord(r.at(root), r.at(root) - center, root))
+          Some(HitRecord(r.at(root), (r.at(root) - center) / radius, root, r))
       else
-          Some(HitRecord(r.at(root), r.at(root) - center, root))
+          Some(HitRecord(r.at(root), (r.at(root) - center) / radius, root, r))
 
 }
 
