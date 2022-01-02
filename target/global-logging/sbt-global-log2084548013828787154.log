@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/Users/misha/rayTracer/}raytracer/products {file:/Users/misha/rayTracer/}raytracer/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4c01d4f5, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 13 Scala sources to /Users/misha/rayTracer/target/scala-3.0.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/misha/rayTracer/src/main/scala/main.scala:20:37 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m          color.operator_@((rayColor(scattered, world, depth-[31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                     [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                     Not found: scattered[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 1 січ. 2022 р., 19:20:26[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/Users/misha/rayTracer/}raytracer/products {file:/Users/misha/rayTracer/}raytracer/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 12 Scala sources to /Users/misha/rayTracer/target/scala-3.0.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/misha/rayTracer/src/main/scala/material/lambertian/Lambertian.scala:11:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |')' expected, but '}' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/misha/rayTracer/src/main/scala/main.scala:36:12 ---------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m36 |[0m  world.add([33mnew[0m [35mSphere[0m(Vec3([31m0[0m, [31m0[0m, -[31m1[0m), [31m0.5[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter material of [33mconstructor[0m [35mSphere[0m in [33mclass[0m [35mSphere[0m: (center: vector.Vec3, radius: Double, material: material.Material): [0m
+[0m[[0m[31merror[0m] [0m[0m   |  geometry.sphere.Sphere[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/misha/rayTracer/src/main/scala/main.scala:37:12 ---------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m  world.add([33mnew[0m [35mSphere[0m(Vec3([31m0[0m, -[31m100.5[0m, -[31m1[0m), [31m100[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter material of [33mconstructor[0m [35mSphere[0m in [33mclass[0m [35mSphere[0m: (center: vector.Vec3, radius: Double, material: material.Material): [0m
+[0m[[0m[31merror[0m] [0m[0m   |  geometry.sphere.Sphere[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed 31 груд. 2021 р., 17:35:22[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

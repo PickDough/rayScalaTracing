@@ -12,6 +12,8 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.5.5" />
+        <option name="useSbtShellForBuild" value="true" />
+        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
     </option>
   </component>

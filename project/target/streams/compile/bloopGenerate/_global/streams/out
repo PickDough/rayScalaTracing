@@ -1,0 +1,4 @@
+[debug] [raytracer-build] Classpath dependencies List()
+[debug] [raytracer-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'raytracer-build' to '/Users/misha/rayTracer/project/.bloop/raytracer-build.json'
+[success] Generated .bloop/raytracer-build.json

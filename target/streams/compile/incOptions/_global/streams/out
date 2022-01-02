@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/misha/rayTracer/target/scala-3.0.2/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vec3$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HittableList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rayTracer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sphere.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hittable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HittableList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HitRecord$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ray.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Camera.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vec3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ray$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Camera$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Material.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Metal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lambertian.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HitRecord.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vec3$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HittableList.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	rayTracer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sphere.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hittable.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HittableList$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HitRecord$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ray.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Camera.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vec3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ray$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Camera$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Material.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Metal.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Lambertian.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HitRecord.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/misha/rayTracer/target/scala-3.0.2/classes.bak[0m
